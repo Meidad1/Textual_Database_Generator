@@ -1,0 +1,38 @@
+TEXTUAL CORPUS GENERATOR
+-------------------------
+meidad.ovadia@mail.huji.ac.il / meidad.ovadia2@gmail.com / +972-54-3970662
+-------------------------
+In general, this is a tool which receives urls (right now only from the Namibian New Era website) of articles written
+in Khoekhoe and urls for their original equivalents in English, and generates text files which contain the textual
+content of each article and its English equivalent. It generates xlsx (Excel) tables as well, containing the meta data and the
+content itself arranged in a table.
+__________________________
+
+INPUT:
+Make sure the following files are in the main folder of the project (the same folder as main.py):
+1. A txt file which contains the KK articles urls. Each line in the file should contains one url.
+2. A txt file which contains the English articles urls. Each line in the file should contains one url
+REMARK: the urls in both files must correspond with each other and be in the same order. For example, the first url
+in the KK urls file must be the translation of the article in the first url in the English urls file.
+
+EXECUTION:
+Open the your CMD on the folder of the code files, or you can also create a pycharm (or other IDE) project.
+Run the command: python3 <KK/LUG URLs file path> <ENG URLs file path> <KK / LUG>
+
+OUTPUT:
+In the same folder of the project you will find two output folders:
+1. output_tables, which contains a table of the meta data of the articles and another table with the content of the articles.
+2. output_txt, which contains a text file for each article. Each text file contains both the Khoekhoe and its English equivalent.
+Each output text file is in the following format:
+    Article's ID
+    KK title
+    Date (of the translation to a KK article)
+    Author
+    URL
+    BODY OF THE ARTICLE (in KK)
+    -------------------
+    English title
+    Date
+    Author
+    URL
+    BODY OF THE ARTICLE (in English)
