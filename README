@@ -1,11 +1,11 @@
 TEXTUAL CORPUS GENERATOR
 -------------------------
-meidad.ovadia@mail.huji.ac.il / meidad.ovadia2@gmail.com / +972-54-3970662
+meidad.ovadia@mail.huji.ac.il / meidad.ovadia2@gmail.com
 -------------------------
-In general, this is a tool which receives urls (right now only from the Namibian New Era website) of articles written
+This is a tool which receives urls (right now only from the Namibian New Era website) of articles written
 in Khoekhoe and urls for their original equivalents in English, and generates text files which contain the textual
-content of each article and its English equivalent. It generates xlsx (Excel) tables as well, containing the meta data and the
-content itself arranged in a table.
+content of each article and its English equivalent. It generates xlsx tables as well, containing the meta data and the
+content itself.
 __________________________
 
 INPUT:
